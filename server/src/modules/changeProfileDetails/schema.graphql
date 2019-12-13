@@ -1,0 +1,16 @@
+type Response {
+    error: String
+}
+
+type Query {
+    hello: String
+}
+
+type Mutation {
+    changeProfileDetails(
+        fullname: String
+        username: String
+        bio: String
+        email: String
+    ): String
+}

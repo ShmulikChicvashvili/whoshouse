@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "expo-media-library": "^7.0.0",
+    "react-native": "^0.61.2"
+  }
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mutation follow should follow user 1`] = `
+User {
+  "bio": null,
+  "email": "m@m.com",
+  "followers": Array [],
+  "followersCount": 0,
+  "following": Array [
+    User {
+      "bio": null,
+      "email": "a@a.com",
+      "followersCount": 1,
+      "followingCount": 0,
+      "fullname": "Angelika Miler",
+      "id": 2,
+      "notificationToken": null,
+      "photosCount": 0,
+      "username": "Angelaaa",
+    },
+  ],
+  "followingCount": 1,
+  "fullname": "Marcin Miler",
+  "id": 1,
+  "notificationToken": null,
+  "photosCount": 0,
+  "username": "Marcinek",
+}
+`;
+
+exports[`Mutation follow should follow user 2`] = `
+User {
+  "bio": null,
+  "email": "a@a.com",
+  "followers": Array [
+    User {
+      "bio": null,
+      "email": "m@m.com",
+      "followersCount": 0,
+      "followingCount": 1,
+      "fullname": "Marcin Miler",
+      "id": 1,
+      "notificationToken": null,
+      "photosCount": 0,
+      "username": "Marcinek",
+    },
+  ],
+  "followersCount": 1,
+  "following": Array [],
+  "followingCount": 0,
+  "fullname": "Angelika Miler",
+  "id": 2,
+  "notificationToken": null,
+  "photosCount": 0,
+  "username": "Angelaaa",
+}
+`;

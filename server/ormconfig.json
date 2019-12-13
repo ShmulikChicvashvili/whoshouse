@@ -1,0 +1,41 @@
+[
+    {
+        "name": "development",
+        "type": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "username": "postgres",
+        "password": "Anukhe2910",
+        "database": "postgres",
+        "synchronize": true,
+        "logging": false,
+        "entities": ["src/entity/**/*.ts"],
+        "migrations": ["src/migration/**/*.ts"],
+        "subscribers": ["src/subscriber/**/*.ts"],
+        "cli": {
+            "entitiesDir": "src/entity",
+            "migrationsDir": "src/migration",
+            "subscribersDir": "src/subscriber"
+        }
+    },
+    {
+        "name": "test",
+        "type": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "username": "marcin",
+        "password": "marcin",
+        "database": "new-instagram-test",
+        "synchronize": true,
+        "logging": false,
+        "dropSchema": true,
+        "entities": ["src/entity/**/*.ts"],
+        "migrations": ["src/migration/**/*.ts"],
+        "subscribers": ["src/subscriber/**/*.ts"],
+        "cli": {
+            "entitiesDir": "src/entity",
+            "migrationsDir": "src/migration",
+            "subscribersDir": "src/subscriber"
+        }
+    }
+]

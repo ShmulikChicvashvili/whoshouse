@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "sdkVersion": "35.0.0",
+    "name": "client",
+    "slug": "client",
+    "version": "0.1.0",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
