@@ -1492,6 +1492,10 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+expo-media-library@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-7.0.0.tgz#67b1fe55ed530ff44db7433446d2f47ab8681c55"
+
 extend-shallow@^1.1.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/extend-shallow/-/extend-shallow-1.1.4.tgz#19d6bf94dfc09d76ba711f39b872d21ff4dd9071"
@@ -2124,10 +2128,8 @@ json-stable-stringify@^1.0.1:
     jsonify "~0.0.0"
 
 json5@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.1.tgz#81b6cb04e9ba496f1c7005d07b4368a2638f90b6"
-  dependencies:
-    minimist "^1.2.0"
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
 
 jsonfile@^2.1.0:
   version "2.4.0"
